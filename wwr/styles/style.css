@@ -31,6 +31,7 @@ main section {
 }
 #background {
     height: 725px;
+    background-color: white;
 }
 body {
     background-color: white;
@@ -52,9 +53,6 @@ header {
 .book:hover, .join:hover {
     background-color: #78C5D7;
     color: #134266;
-}
-#background {
-    background-color: white;
 }
 .msg {
     background-color: #FCE172;
