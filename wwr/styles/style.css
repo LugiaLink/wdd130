@@ -184,6 +184,129 @@ footer .social img {
     padding-top: 15px;
 }
 
+#hero2 {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 50px;
+}
+#hero-box-2{
+    grid-column: 1/5;
+    grid-row: 1/4;
+}
+#hero-img-2{
+    width: 100%;
+}
+#hero-msg-2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-shadow: 1px 1px #6f7364;
+}
+#hero-sub-box{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 27px;
+}
+.blog-title {
+    font-family: 'Oswald';
+    font-size: 5em;
+    color: white;
+    margin: 0px;
+    text-shadow: 1.5px 1.5px gray;
+}
+hr {
+    width: 50%;   
+}
+.title-blog {
+    font-size: 3em;
+    font-family: 'Oswald';
+    text-align: center;
+}
+#blog-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 50px 1fr 1fr 1fr 1fr;
+    margin-bottom: 25px;
+
+}
+.first-post-img {
+    width: 100%;
+    grid-column: 2/4;
+    grid-row: 1/4;
+    margin-bottom: 10px;
+}
+.first-post-title {
+    margin: 12px;
+    grid-column: 5/8;
+    grid-row: 1/2;
+}
+.first-post-p {
+    grid-column: 5/8;
+    grid-row: 2/3;
+}
+.second-post-img {
+    margin-top: 10px;
+    width: 100%;
+    grid-column: 2/4;
+    grid-row: 6/9;
+}
+.second-post-title {
+    margin: 12px;
+    grid-column: 5/8;
+    grid-row: 6/7;
+}
+.second-post-p {
+    grid-column: 5/8;
+    grid-row: 7/8;
+}
+.hr-g {
+    grid-column: 1/9;
+    grid-row: 5/6;
+}
+.first-post-button {
+    width: 170px;
+    padding: 11px;
+    grid-column: 7/9;
+    grid-row: 3/4;
+}
+.second-post-button {
+    width: 170px;
+    padding: 11px;
+    grid-column: 7/9;
+    grid-row: 8/9;
+}
+#hero-box-container {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+} 
+#hero-img-3 {
+    width: 100%;
+    grid-column: 1/8;
+    grid-row: 1/4;
+}
+#hero-box-3 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #6f7364;
+}
+.social-icon {
+    width: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hero-title-3 {
+    text-shadow: 3px 3px #6f7364;
+    font-family: 'Oswald';
+    font-size: 5em;
+    margin: 10px;
+}
+.footer-blog {
+    margin-top: 0px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
