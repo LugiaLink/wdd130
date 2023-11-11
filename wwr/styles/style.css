@@ -304,13 +304,13 @@ hr {
     font-size: 5em;
     margin: 10px;
 }
-.hero-p-3 {
+#hero-p-3 {
     font-weight: bold;
 }
 .footer-blog {
     margin-top: 0px;
 }
-.final-quote {
+#final-quote {
     text-shadow: none;
     color: #134266;
     font-weight: bold;
