@@ -207,7 +207,7 @@ footer .social img {
     padding: 10px;
     padding-bottom: 27px;
 }
-.blog-title {
+#blog-title {
     font-family: 'Oswald';
     font-size: 5em;
     color: white;
@@ -298,7 +298,7 @@ hr {
     padding-left: 15px;
     padding-right: 15px;
 }
-.hero-title-3 {
+#hero-title-3 {
     text-shadow: 3px 3px #6f7364;
     font-family: 'Oswald';
     font-size: 5em;
