@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face {
+    font-family: 'frenchfries';
+    src: url('../fonts/FrenchFries-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/* this is the code for the head of all pages */
+#logo_link {
+    justify-self: center;
+    align-self: center;
+    padding-top: 7px;
+    padding-bottom: 0;
+}
+.logo {
+    width: 80px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    padding-top: 23px;
+}
+nav a:hover {
+    background-color: #f9260E;
+    color: #EBE3D6;
+
+}
+header {
+    background-color: #E4821B;
+}
+/*this is the code for the home page */
+#hero-img {
+    width: 100%;
+    grid-column: 1/5;
+    grid-row: 1/4 ;
+}
+#hero-msg-bck {
+    background-color: #EBE3D6;
+    grid-column:3/4;
+    grid-row: 2/3;
+    opacity: 0.7;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+#hero-msg {
+    z-index: 1;
+    grid-column:3/4;
+    grid-row: 2/3;
+    text-align: center;
+    align-self: center;
+}
+#hero-msg p {
+    font-family: 'Montserrat';
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px;
+}
+#hero-msg h2 {
+    font-size: 40px;
+}
+#hero {
+    display: grid;
+    grid-template: 1fr 2fr 1fr / 100px 1fr 1fr 100px;
+}
+.mission-vision {
+    text-align: center;
+    font-size: 70px;
+    color: #dd5718;
+}
+.p-mission-vision {
+    text-align: center;
+    font-size: 30px;
+    color: #E4821B;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.p-mission-vision-1 {
+    text-align: center;
+    font-size: 25px;
+    color: #f9260E;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+hr {
+    border-top: 5px dashed #e17779;
+    width: 70%;
+}
+#banner-1 {
+    width: 65%;
+    margin: 0 auto;
+    display: grid;
+    grid-template: 30px 1fr 30px / 30px 1fr 1fr 30px;
+    background-color: #618E7d;
+    border-radius: 20px;
+}
+#banner-1 h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    grid-column: 3/4;
+}
+#banner-1 p {
+    font-family: Montserrat;
+    color: #EBE3D6;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: left;
+    align-self: end;
+    
+}
+.banner-img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: 0 0;
+    border-radius: 15px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    transition: transform .5s;
+}
+.banner-img:hover {
+    transform: scale(1.1);
+}
+.gallery {
+    display: grid;
+    grid-template: 30px 1fr 25px / 1fr 1fr 1fr;
+    column-gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.gallery section:nth-of-type(1) {
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.gallery section:nth-of-type(2) {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.gallery section:nth-of-type(3) {
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.gallery img:nth-of-type(1) {
+    width: 250px;
+    height: 312px;
+}
+.gallery h3:nth-of-type(1) {
+    color: #ffb800;
+    text-align: center;
+}
+/*this is the code for the body of the all pages*/
+body {
+    background-color: white;
+    font-family: 'frenchfries', 'Montserrat', sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+/*this is the code for the footer of the all pages*/
+footer {
+    background-color: #E4821B;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    padding: 15px 30px;
+    margin-top: 100px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    color: #f9260E;
+}
+footer p {
+    color: white;
+}
+footer .social img {
+    padding-top: 15px;
+}
