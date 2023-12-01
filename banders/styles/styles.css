@@ -35,6 +35,7 @@ nav a:hover {
     color: #EBE3D6;
 
 }
+/* Adding a fixed menu in the top of the all pages */
 header {
     background-color: #E4821B;
     position: fixed;
