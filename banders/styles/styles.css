@@ -209,7 +209,7 @@ hr {
     width: 400px;
     height: 400px;
     object-fit: cover;
-    object-position: 0 1;
+    object-position: bottom;
 }
 .founder-paragraph {
     font-family: Montserrat;
