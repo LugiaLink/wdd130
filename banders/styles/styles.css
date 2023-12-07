@@ -241,6 +241,100 @@ hr {
     font-size: 40px;
 }
 
+/* This is the contact form css code */
+
+#backgroundform {
+    width: 100%;
+}
+#grid-contact-form {
+    width: 100%;
+    margin: 76px auto -100px;
+    display: grid;
+    grid-template: 20% 1fr 1fr 5% / 10% 3fr 1fr 10%;
+}
+#grid-contact-form img {
+    grid-column: 1/5;
+    grid-row: 1/5;
+}
+#grid-contact-form h2 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    text-align: center;
+}
+#grid-contact-form p {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    text-align: center;
+    align-self: end;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+#form-contact {
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+form {
+    z-index: 1;
+    justify-self: center;
+    align-self: center;
+    width: 90%;
+    height: 90%;
+}
+ul {
+    list-style: none;
+    width: 90%;
+    height: 90%;
+}
+li{
+    padding-bottom: 3%;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+button {
+    background-color: #f9260E;
+    border-radius: 5px;
+    color: white;
+    font-family: FrenchFries;
+    font-size: 35px;
+    text-decoration: none;
+    width: 100%;
+    height: 60px;
+}
+button:hover {
+    background-color: white;
+    color:#f9260E;
+}
+input {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+#background-of-form {
+    margin-top: 20px;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: #f9260E;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+#message-form {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    align-self: end;
+    text-align: center;
+    font-size: 25px;
+}
+
 /*this is the code for the body of the all pages*/
 body {
     background-color: white;
